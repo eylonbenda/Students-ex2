@@ -13,6 +13,11 @@
 		84F68B6D1FD044AA007CDD3D /* Students_ex2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F68B6B1FD044AA007CDD3D /* Students_ex2.xcdatamodeld */; };
 		84F68B6F1FD044AA007CDD3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F68B6E1FD044AA007CDD3D /* Assets.xcassets */; };
 		84F68B721FD044AA007CDD3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F68B701FD044AA007CDD3D /* LaunchScreen.storyboard */; };
+		84F68B7A1FD04E6B007CDD3D /* StudentTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F68B791FD04E6B007CDD3D /* StudentTableTableViewController.swift */; };
+		84F68B7E1FD05266007CDD3D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F68B7D1FD05266007CDD3D /* Student.swift */; };
+		84F68B801FD05E05007CDD3D /* StudentRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F68B7F1FD05E05007CDD3D /* StudentRowCell.swift */; };
+		84FD2E2C1FD184170072C08D /* AddStudentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD2E2B1FD184170072C08D /* AddStudentsController.swift */; };
+		84FD2E2E1FD1D97E0072C08D /* StudentsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD2E2D1FD1D97E0072C08D /* StudentsDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		84F68B6E1FD044AA007CDD3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F68B711FD044AA007CDD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F68B731FD044AA007CDD3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F68B791FD04E6B007CDD3D /* StudentTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableTableViewController.swift; sourceTree = "<group>"; };
+		84F68B7D1FD05266007CDD3D /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		84F68B7F1FD05E05007CDD3D /* StudentRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRowCell.swift; sourceTree = "<group>"; };
+		84FD2E2B1FD184170072C08D /* AddStudentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentsController.swift; sourceTree = "<group>"; };
+		84FD2E2D1FD1D97E0072C08D /* StudentsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,13 @@
 		84F68B631FD044AA007CDD3D /* Students-ex2 */ = {
 			isa = PBXGroup;
 			children = (
+				84F68B7D1FD05266007CDD3D /* Student.swift */,
 				84F68B641FD044AA007CDD3D /* AppDelegate.swift */,
 				84F68B661FD044AA007CDD3D /* ViewController.swift */,
+				84F68B7F1FD05E05007CDD3D /* StudentRowCell.swift */,
+				84F68B791FD04E6B007CDD3D /* StudentTableTableViewController.swift */,
+				84FD2E2B1FD184170072C08D /* AddStudentsController.swift */,
+				84FD2E2D1FD1D97E0072C08D /* StudentsDetailsVC.swift */,
 				84F68B681FD044AA007CDD3D /* Main.storyboard */,
 				84F68B6E1FD044AA007CDD3D /* Assets.xcassets */,
 				84F68B701FD044AA007CDD3D /* LaunchScreen.storyboard */,
@@ -139,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F68B801FD05E05007CDD3D /* StudentRowCell.swift in Sources */,
 				84F68B671FD044AA007CDD3D /* ViewController.swift in Sources */,
 				84F68B651FD044AA007CDD3D /* AppDelegate.swift in Sources */,
+				84FD2E2E1FD1D97E0072C08D /* StudentsDetailsVC.swift in Sources */,
+				84F68B7A1FD04E6B007CDD3D /* StudentTableTableViewController.swift in Sources */,
+				84F68B7E1FD05266007CDD3D /* Student.swift in Sources */,
+				84FD2E2C1FD184170072C08D /* AddStudentsController.swift in Sources */,
 				84F68B6D1FD044AA007CDD3D /* Students_ex2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
